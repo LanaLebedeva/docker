@@ -24,3 +24,12 @@ docker run --rm -it -p 8090:80 myphp-server
 docker build -t mypython-server .
 
 docker run --rm -it -p 8089:5000 mypython-server
+
+
+#### Here are the commands you can run to remove the items that you don’t need:
+docker container prune -f
+
+docker volume prune -f
+
+docker image prune -f
+
